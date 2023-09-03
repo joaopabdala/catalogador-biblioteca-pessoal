@@ -20,3 +20,7 @@
 - [ ] Usar a diretiva ngIf
 - [ ] Formatar a apresentação de dados com Pipes.
 - [ ] Build e deploy da aplicação.
+
+Protótipo:
+
+https://www.figma.com/file/QAK9pAq10GKUqsy0JvxqSw/Projeto-organizador-estante?type=design&node-id=23%3A664&mode=design&t=2wICDEAO3AMYAZbZ-1
