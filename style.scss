@@ -1,0 +1,22 @@
+:root{
+
+    --primary-darker: #435334;
+    --primary-lighter: #9EB384;
+}
+
+$primary:#CEDEBD;
+$secondary: #FCE8CA;
+
+body{
+    background-color: var(--primary);
+}
+
+.banner{
+    background-image: url('./assets/images/image1.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+
+@import './node_modules/bootstrap/scss/bootstrap.scss'
