@@ -19,4 +19,10 @@ body{
     background-position: center;
 }
 
+@media (max-width: 727px) {
+    #nav-bar-desktop{
+        display: none;
+}
+}
+
 @import './node_modules/bootstrap/scss/bootstrap.scss'
