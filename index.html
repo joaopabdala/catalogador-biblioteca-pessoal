@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
+
+    <script src="./jquery/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -35,8 +37,8 @@
         <img src="./assets/images/image1.png" alt="" class="img-fluid col-12">
     </div>
 
-    <div class="row mx-1 my-4 text-center">
-        <div class="col-6 col-md mb-3">
+    <div class="row mx-1 my-4 text-center" id="books-index">
+        <!-- <div class="col-6 col-md mb-3">
             <a href="/views/book-description.html">
                 <img class="img-fluid" src="./assets/images/o-pavilhao-dourado.png" alt="">
             </a>
@@ -65,7 +67,7 @@
             <a href="/views/book-description.html">
                 <img class="img-fluid" src="./assets/images/tu-nao-te-moves-de-ti.png" alt="">
             </a>
-        </div>
+        </div> -->
     </div>
 </main>
     
@@ -96,6 +98,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+        <script>
+            function readData(data){
+                
+
+                $('#books-index').append(`<div class="col-6 col-md mb-3">
+            <a href="/views/book-description.html?id=${data.id}">
+                <img class="img-fluid" src="${data.cover}" alt="">
+            </a>
+        </div>`);
+            }
+
+            $.ajax({
+                url: 'http://localhost:3000/livros',
+
+                success(data){
+                    for (let i = 0; i <= 5; i++) {
+                        readData(data[i])
+                    }
+                }
+            })
+        </script>
 </body>
 
 </html>

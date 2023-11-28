@@ -1,0 +1,61 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "title": "O pavilhão dourado",
+      "author": "Yukio Mishima",
+      "pages": 288,
+      "ISBN": 9788535916812,
+      "description": "Neste livro brilhante, Yukio Mishima conta a história de Mizoguchi, adolescente inseguro e introspectivo. Narrado de forma densa e original, o romance mostra que a beleza absoluta pode ser tão opressiva e enlouquecedora quanto qualquer imperfeição.",
+      "cover": "../assets/images/o-pavilhao-dourado.png"
+    },
+    {
+      "title": "Galáxias",
+      "author": "Haroldo de Campos",
+      "pages": 128,
+      "ISBN": 9788573263008,
+      "description": "Escritas ao longo de treze anos (1963-1976), as Galáxias de Haroldo de Campos mantêm pulsante, em cada sílaba, sua centelha poética. Em suas páginas, a expressão 'universo da linguagem' adquire sentido próprio, tal a radiância inusitada de suas constelações verbais.\n Vinte anos após a primeira edição integral (1984), esta obra-prima inclassificável - a que Caetano Veloso referiu-se como proesia - retorna ao público revista e acompanhada de CD, no qual o autor registrou passagens centrais de sua viagem pela língua e pela literatura.",
+      "cover": "../assets/images/26300 1.png",
+      "id": 2
+    },
+    {
+      "title": "Onde os velhos não têm vez",
+      "author": " Cormac McCarthy",
+      "pages": 256,
+      "ISBN": 9788556522061,
+      "description": "Há muitos anos fora de catálogo, a nova edição de Onde os velhos não têm vez traz de volta ao mercado uma das obras mais marcantes de um gênio da literatura americana. Neste romance de extraordinário vigor e potência que inspirou o premiado filme dos irmãos Coen, Cormac McCarthy faz uma reflexão profunda sobre os laços de amor, sangue e dever que informam vidas e definem destinos.",
+      "cover": "https://m.media-amazon.com/images/I/71Kuvn0ruPL._SL1500_.jpg",
+      "id": 3
+    },
+    {
+      "title": "Por que ler os clássicos",
+      "author": "Italo Calvino",
+      "pages": 385,
+      "ISBN": 9788535911343
+      ,
+      "description": "O que é um clássico? E por que lê-lo? Este livro fornece várias respostas a essas perguntas, algumas consensuais, outras polêmicas, mas todas certamente enriquecedoras. Em verdadeiro trabalho amoroso de ourivesaria, Calvino desentranha as diversas facetas do que seja um clássico, para depois iluminar com uma leitura penetrante seus próprios clássicos, ou seja, alguns dos autores mais importantes da tradição literária e intelectual do Ocidente. Por que ler os clássicos? A razão definitiva que Calvino dá a essa pergunta é tão simples como as grandes verdades: a única justificativa que se pode apresentar é que ler os clássicos é melhor do que não os ler...",
+      "cover": "https://m.media-amazon.com/images/I/91A7V63ojPL._SL1500_.jpg",
+      "id": 4
+    },
+    {
+      "title": "Tu não te moves de ti",
+      "author": "Hilda Hilst",
+      "pages": 144,
+      "ISBN": 9786559211302,
+      "description": "Com prosa experimental e provocativa, esta reunião de três novelas se consagrou como uma das obras mais fascinantes da autora.",
+      "cover": "https://m.media-amazon.com/images/I/8191Fa-OlBL._SL1500_.jpg",
+      "id": 5
+    },
+    {
+      "title": "Soul Eater Perfect Edition Vol. 6",
+      "author": "Atsushi Ohkubo ",
+      "pages": 288,
+      "ISBN": 9786555944914
+      ,
+      "description": "A Medusa está de volta à cena bem a tempo da corrida louca para possuir as Ferramentas Demoníacas de Eibon! Mas seu reaparecimento confunde a pobre Crona, que está se adaptando à vida na DWMA. Será que os novos aliados se transformarão em velhos inimigos?! Meisters e suas armas assumem um visual totalmente novo no lindo Soul Eater: Perfect Edition!Mergulhe nas aventuras de Maka e Soul em um formato maior exclusivo em papel de alta qualidade que maximiza a arte dinâmica da série!"
+      ,
+      "cover": "https://m.media-amazon.com/images/I/61S4tg3E+tL._SL1000_.jpg",
+      "id": 6
+    }
+  ]
+}
