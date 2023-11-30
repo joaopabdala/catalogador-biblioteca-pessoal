@@ -31,8 +31,7 @@
       "title": "Por que ler os clássicos",
       "author": "Italo Calvino",
       "pages": 385,
-      "ISBN": 9788535911343
-      ,
+      "ISBN": 9788535911343,
       "description": "O que é um clássico? E por que lê-lo? Este livro fornece várias respostas a essas perguntas, algumas consensuais, outras polêmicas, mas todas certamente enriquecedoras. Em verdadeiro trabalho amoroso de ourivesaria, Calvino desentranha as diversas facetas do que seja um clássico, para depois iluminar com uma leitura penetrante seus próprios clássicos, ou seja, alguns dos autores mais importantes da tradição literária e intelectual do Ocidente. Por que ler os clássicos? A razão definitiva que Calvino dá a essa pergunta é tão simples como as grandes verdades: a única justificativa que se pode apresentar é que ler os clássicos é melhor do que não os ler...",
       "cover": "https://m.media-amazon.com/images/I/91A7V63ojPL._SL1500_.jpg",
       "id": 4
@@ -50,12 +49,98 @@
       "title": "Soul Eater Perfect Edition Vol. 6",
       "author": "Atsushi Ohkubo ",
       "pages": 288,
-      "ISBN": 9786555944914
-      ,
-      "description": "A Medusa está de volta à cena bem a tempo da corrida louca para possuir as Ferramentas Demoníacas de Eibon! Mas seu reaparecimento confunde a pobre Crona, que está se adaptando à vida na DWMA. Será que os novos aliados se transformarão em velhos inimigos?! Meisters e suas armas assumem um visual totalmente novo no lindo Soul Eater: Perfect Edition!Mergulhe nas aventuras de Maka e Soul em um formato maior exclusivo em papel de alta qualidade que maximiza a arte dinâmica da série!"
-      ,
+      "ISBN": 9786555944914,
+      "description": "A Medusa está de volta à cena bem a tempo da corrida louca para possuir as Ferramentas Demoníacas de Eibon! Mas seu reaparecimento confunde a pobre Crona, que está se adaptando à vida na DWMA. Será que os novos aliados se transformarão em velhos inimigos?! Meisters e suas armas assumem um visual totalmente novo no lindo Soul Eater: Perfect Edition!Mergulhe nas aventuras de Maka e Soul em um formato maior exclusivo em papel de alta qualidade que maximiza a arte dinâmica da série!",
       "cover": "https://m.media-amazon.com/images/I/61S4tg3E+tL._SL1000_.jpg",
       "id": 6
+    },
+    {
+      "title": "O pavilhão dourado",
+      "author": "Yukio Mishima",
+      "pages": 288,
+      "ISBN": 9788535916812,
+      "description": "Neste livro brilhante, Yukio Mishima conta a história de Mizoguchi, adolescente inseguro e introspectivo. Narrado de forma densa e original, o romance mostra que a beleza absoluta pode ser tão opressiva e enlouquecedora quanto qualquer imperfeição.",
+      "cover": "../assets/images/o-pavilhao-dourado.png",
+      "id": 7
+    },
+    {
+      "title": "a",
+      "author": "s",
+      "pages": "12",
+      "description": " asdasdasd",
+      "ISBN": "111-11-1111-111-1",
+      "cover": "https://m.media-amazon.com/images/I/81nnYIdpdnL._SL1500_.jpg",
+      "id": 8
+    },
+    {
+      "title": "o mito do nascimento do herói",
+      "author": "otto rank",
+      "pages": "123",
+      "description": "çlasdjflasdjf ",
+      "ISBN": "666-66-6666-666-6",
+      "cover": "https://m.media-amazon.com/images/I/61vq9pfAgfL._SL1050_.jpg",
+      "id": 9
+    },
+    {
+      "title": "o mito do nascimento do herói",
+      "author": "otto rank",
+      "pages": "123",
+      "description": " ",
+      "ISBN": "",
+      "cover": "https://m.media-amazon.com/images/I/61vq9pfAgfL._SL1050_.jpg",
+      "id": 10
+    },
+    {
+      "title": "",
+      "author": "",
+      "pages": "",
+      "description": " ",
+      "ISBN": "",
+      "cover": "https://m.media-amazon.com/images/I/71J92PDO2XL._SL1500_.jpg",
+      "id": 11
+    },
+    {
+      "title": "",
+      "author": "",
+      "pages": "",
+      "description": " ",
+      "ISBN": "",
+      "cover": "https://m.media-amazon.com/images/I/81MXSU2f6ZL._SL1500_.jpg",
+      "id": 12
+    },
+    {
+      "title": "",
+      "author": "",
+      "pages": "",
+      "description": " ",
+      "ISBN": "",
+      "cover": "https://m.media-amazon.com/images/I/81N5KHFY1NL._SL1500_.jpg",
+      "id": 13
+    },
+    {
+      "title": "",
+      "author": "",
+      "pages": "",
+      "description": " ",
+      "ISBN": "",
+      "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
+      "id": 14
+    }
+  ],
+  "usuario": [
+    {
+      "name": "user",
+      "profile-image": "",
+      "shelf": 4,
+      "id": 1
+    },
+    {
+      "shelf": "5",
+      "id": 2
+    },
+    {
+      "shelf": "1",
+      "id": 3
     }
   ]
 }

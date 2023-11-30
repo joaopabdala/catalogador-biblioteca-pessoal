@@ -1,79 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="../style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../style.css">
+
+  <script src="../jquery/jquery.min.js"></script>
 </head>
+
 <body class="bg-primary">
 
-  <header>
-    <nav class="navbar justify-content-between">
-      <div class="col d-none d-md-block">
-        <a class="navbar-brand mx-5 " href="../index.html"><i class="bi bi-book"></i></a>
-      </div>
-      <div class="col input-group input-group-sm mx-3">
-        <input type="text " placeholder="Search" class="col-xxl self-center form-control bg-secondary d-none d-md-flex">
-      </div>
-      <div class=" col d-none d-md-block d-md-flex justify-content-end mx-4">
-        <a class="text-dark text-decoration-none mx-2" href="home.html">Home</a>
-        <a class="text-dark text-decoration-none mx-2" href="login.html">Login</a>
-      </div>
-    </nav>
+  <header id="nav-desktop">
 
-    
-  </header>  
+  </header>
 
-<div class="col-12 d-flex justify-content-center  mt-5">
-  <div class="bg-secondary w-75 w-md-25 p-4 border border-black"> 
-    <h2>Create Account</h2>
-    <form action="">
-      <div class="form-group d-grid gap-3">
-        <label for="username">Username</label>
-        <input type="text" id="username" class="form-control" required>
-        <label for="email">E-mail</label>
-        <input type="text" id="email" class="form-control" required>
-        <label for="password">Password</label>
-        <input type="text" id="password" class="form-control" minlength="8" maxlength="30"
-        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required >
-        <label for="confirm-password">Confirm Password</label>
-        <input type="text" id="confirm-password" class="form-control" minlength="8" maxlength="30"
-        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
-      </div>
-      <div class="d-flex flex-row-reverse mt-3">
-        <button class="btn btn-sm bg-primary align-self-end text-white">Create</button>
-      </div>
-    </form>
+  <div class="col-12 d-flex justify-content-center  mt-5">
+    <div class="bg-secondary w-75 w-md-25 p-4 border border-black">
+      <h2>Create Account</h2>
+      <form action="">
+        <div class="form-group d-grid gap-3">
+          <label for="username">Username</label>
+          <input type="text" id="username" class="form-control" required>
+          <label for="email">E-mail</label>
+          <input type="text" id="email" class="form-control" required>
+          <label for="password">Password</label>
+          <input type="text" id="password" class="form-control" minlength="8" maxlength="30"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
+          <label for="confirm-password">Confirm Password</label>
+          <input type="text" id="confirm-password" class="form-control" minlength="8" maxlength="30"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
+        </div>
+        <div class="d-flex flex-row-reverse mt-3">
+          <button class="btn btn-sm bg-primary align-self-end text-white">Create</button>
+        </div>
+      </form>
+    </div>
   </div>
-</div>
 
-<nav class="navbar navbar-expand-lg mx-3 d-md-none fixed-top bg-primary">
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="text-dark text-decoration-none mx-2" href="./views/home.html">Home</a>
-          </li>
-          <li class="nav-item">
-              <a class="text-dark text-decoration-none mx-2" href="./views/login.html">Login</a>
-          </li>
-          <li class="nav-item">
-              <a class="text-dark text-decoration-none mx-2" href="./views/create.html">Create Account</a>
-          </li>
-      </ul>
-  </div>
-  <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#"><i class="bi bi-book"></i></a>
-  </div>
-</nav>
+  <footer id="nav-mobile">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="../model/navLogic2.js"></script>
+
 </body>
+
 </html>

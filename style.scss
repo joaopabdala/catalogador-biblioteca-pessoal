@@ -1,14 +1,12 @@
-:root{
-
-    --primary-darker: #435334;
-    --primary-lighter: #9EB384;
-}
-
 $primary:#CEDEBD;
 $secondary: #FCE8CA;
 
 body{
     background-color: var(--primary);
+}
+
+main{
+    height: 100px;
 }
 
 .banner{
@@ -18,10 +16,21 @@ body{
     background-size: cover; 
     background-position: center;
 }
+.img-book-shelf{
+    height: 240px;
+}
+
+.book-cover-description{
+    height: 500px;
+}
 
 @media (max-width: 727px) {
     #nav-bar-desktop{
         display: none;
+}
+
+.book-cover-description{
+    height: 500px;
 }
 }
 

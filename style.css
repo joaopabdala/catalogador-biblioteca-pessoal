@@ -1,11 +1,10 @@
 @charset "UTF-8";
-:root {
-  --primary-darker: #435334;
-  --primary-lighter: #9EB384;
-}
-
 body {
   background-color: var(--primary);
+}
+
+main {
+  height: 100px;
 }
 
 .banner {
@@ -16,9 +15,20 @@ body {
   background-position: center;
 }
 
+.img-book-shelf {
+  height: 240px;
+}
+
+.book-cover-description {
+  height: 500px;
+}
+
 @media (max-width: 727px) {
   #nav-bar-desktop {
     display: none;
+  }
+  .book-cover-description {
+    height: 500px;
   }
 }
 /*!
