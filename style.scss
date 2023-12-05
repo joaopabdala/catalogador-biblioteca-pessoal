@@ -2,7 +2,7 @@ $primary:#CEDEBD;
 $secondary: #FCE8CA;
 
 body{
-    background-color: var(--primary);
+    width: 100vw;
 }
 
 main{
@@ -12,10 +12,11 @@ main{
 .banner{
     background-image: url('./assets/images/image1.png');
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-size: cover; 
     background-position: center;
 }
+
 .img-book-shelf{
     height: 240px;
 }
@@ -31,6 +32,10 @@ main{
 
 .book-cover-description{
     height: 500px;
+}
+
+.banner{
+    height: 30vh;
 }
 }
 

@@ -55,15 +55,6 @@
       "id": 6
     },
     {
-      "title": "O pavilhão dourado",
-      "author": "Yukio Mishima",
-      "pages": 288,
-      "ISBN": 9788535916812,
-      "description": "Neste livro brilhante, Yukio Mishima conta a história de Mizoguchi, adolescente inseguro e introspectivo. Narrado de forma densa e original, o romance mostra que a beleza absoluta pode ser tão opressiva e enlouquecedora quanto qualquer imperfeição.",
-      "cover": "../assets/images/o-pavilhao-dourado.png",
-      "id": 7
-    },
-    {
       "title": "a",
       "author": "s",
       "pages": "12",
@@ -80,15 +71,6 @@
       "ISBN": "666-66-6666-666-6",
       "cover": "https://m.media-amazon.com/images/I/61vq9pfAgfL._SL1050_.jpg",
       "id": 9
-    },
-    {
-      "title": "o mito do nascimento do herói",
-      "author": "otto rank",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/61vq9pfAgfL._SL1050_.jpg",
-      "id": 10
     },
     {
       "title": "",
@@ -125,22 +107,24 @@
       "ISBN": "",
       "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
       "id": 14
-    }
-  ],
-  "usuario": [
-    {
-      "name": "user",
-      "profile-image": "",
-      "shelf": 4,
-      "id": 1
     },
     {
-      "shelf": "5",
-      "id": 2
+      "title": "beket",
+      "author": "qwer",
+      "pages": "123",
+      "description": " asdfsdf",
+      "ISBN": "111-11-1111-111-1",
+      "cover": "https://m.media-amazon.com/images/I/71PGjJBdjSS._SL1500_.jpg",
+      "id": 15
     },
     {
-      "shelf": "1",
-      "id": 3
+      "title": "O crepúsculo do mundo",
+      "author": "Werner Herzog",
+      "pages": "",
+      "description": " ",
+      "ISBN": "",
+      "cover": "https://m.media-amazon.com/images/I/A1GfmR8NNVL._SL1500_.jpg",
+      "id": 23
     }
   ]
 }

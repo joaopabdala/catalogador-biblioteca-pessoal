@@ -40,26 +40,9 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
-  <script src="../model/navLogic2.js"></script>
+  <script src="../service/navLogic2.js"></script>
 
-  <script type="module">
-    import { fetchData } from '../model/fetchDb.js'
-
-    $.ajax({
-      url: 'http://localhost:3000/livros',
-
-      success(data) {
-        fetchData('#books-home', data.length);
-      }
-    })
-
-
-
-    console.log(dataLength)
-
-
-
-  </script>
+  <script type="module" src="./home.js"></script>
 </body>
 
 </html>

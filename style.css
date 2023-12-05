@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: var(--primary);
+  width: 100vw;
 }
 
 main {
@@ -10,7 +10,7 @@ main {
 .banner {
   background-image: url("./assets/images/image1.png");
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   background-size: cover;
   background-position: center;
 }
@@ -29,6 +29,9 @@ main {
   }
   .book-cover-description {
     height: 500px;
+  }
+  .banner {
+    height: 30vh;
   }
 }
 /*!
