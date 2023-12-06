@@ -7,7 +7,7 @@
       "pages": 288,
       "ISBN": 9788535916812,
       "description": "Neste livro brilhante, Yukio Mishima conta a história de Mizoguchi, adolescente inseguro e introspectivo. Narrado de forma densa e original, o romance mostra que a beleza absoluta pode ser tão opressiva e enlouquecedora quanto qualquer imperfeição.",
-      "cover": "../assets/images/o-pavilhao-dourado.png"
+      "cover": "https://m.media-amazon.com/images/I/81-znIaim6L._SL1500_.jpg"
     },
     {
       "title": "Galáxias",
@@ -15,7 +15,7 @@
       "pages": 128,
       "ISBN": 9788573263008,
       "description": "Escritas ao longo de treze anos (1963-1976), as Galáxias de Haroldo de Campos mantêm pulsante, em cada sílaba, sua centelha poética. Em suas páginas, a expressão 'universo da linguagem' adquire sentido próprio, tal a radiância inusitada de suas constelações verbais.\n Vinte anos após a primeira edição integral (1984), esta obra-prima inclassificável - a que Caetano Veloso referiu-se como proesia - retorna ao público revista e acompanhada de CD, no qual o autor registrou passagens centrais de sua viagem pela língua e pela literatura.",
-      "cover": "../assets/images/26300 1.png",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1495954610i/15840182.jpg",
       "id": 2
     },
     {
@@ -55,184 +55,13 @@
       "id": 6
     },
     {
-      "title": "a",
-      "author": "s",
-      "pages": "12",
-      "description": " asdasdasd",
-      "ISBN": "111-11-1111-111-1",
-      "cover": "https://m.media-amazon.com/images/I/81nnYIdpdnL._SL1500_.jpg",
-      "id": 8
-    },
-    {
-      "title": "o mito do nascimento do herói",
-      "author": "otto rank",
-      "pages": "123",
-      "description": "çlasdjflasdjf ",
-      "ISBN": "666-66-6666-666-6",
-      "cover": "https://m.media-amazon.com/images/I/61vq9pfAgfL._SL1050_.jpg",
-      "id": 9
-    },
-    {
-      "title": "",
-      "author": "",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/71J92PDO2XL._SL1500_.jpg",
-      "id": 11
-    },
-    {
-      "title": "",
-      "author": "",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/81MXSU2f6ZL._SL1500_.jpg",
-      "id": 12
-    },
-    {
-      "title": "",
-      "author": "",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/81N5KHFY1NL._SL1500_.jpg",
-      "id": 13
-    },
-    {
-      "title": "",
-      "author": "",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
-      "id": 14
-    },
-    {
-      "title": "beket",
-      "author": "qwer",
-      "pages": "123",
-      "description": " asdfsdf",
-      "ISBN": "111-11-1111-111-1",
-      "cover": "https://m.media-amazon.com/images/I/71PGjJBdjSS._SL1500_.jpg",
-      "id": 15
-    },
-    {
-      "title": "O crepúsculo do mundo",
-      "author": "Werner Herzog",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/A1GfmR8NNVL._SL1500_.jpg",
-      "id": 23
-    },
-    {
-      "title": "o mito do nascimento do herói",
-      "author": "otto rank",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/81MXSU2f6ZL._SL1500_.jpg",
-      "id": 24
-    },
-    {
-      "title": "o mito do nascimento do herói",
-      "author": "otto rank",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/81N5KHFY1NL._SL1500_.jpg",
-      "id": 25
-    },
-    {
-      "title": "0",
-      "author": "otto rank",
-      "pages": "",
-      "description": " ",
-      "ISBN": "",
-      "cover": "https://m.media-amazon.com/images/I/81N5KHFY1NL._SL1500_.jpg",
-      "id": 26
-    },
-    {
-      "title": "asdf",
-      "author": "asdf",
-      "pages": "250",
-      "description": " ",
-      "ISBN": "222-22-2222-222-2",
-      "cover": "https://m.media-amazon.com/images/I/81N5KHFY1NL._SL1500_.jpg",
-      "id": 27
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": "asdf ",
-      "ISBN": "122-22-2222-222-2",
-      "cover": "https://m.media-amazon.com/images/I/81MXSU2f6ZL._SL1500_.jpg",
-      "id": 28
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": " asd",
-      "ISBN": "122-22-2222-222-2",
-      "cover": "https://m.media-amazon.com/images/I/81MXSU2f6ZL._SL1500_.jpg",
-      "id": 29
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "122-22-2222-222-1",
-      "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
-      "id": 30
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "122-22-2222-222-1",
-      "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
-      "id": 31
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "122-22-2222-222-1",
-      "cover": "https://m.media-amazon.com/images/I/61nO0tV-cZL._SL1000_.jpg",
-      "id": 32
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "122-22-2222-222-1",
-      "cover": "https://m.media-amazon.com/images/I/61nO0tV-cZL._SL1000_.jpg",
-      "id": 33
-    },
-    {
-      "title": "a",
-      "author": "123",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "123",
-      "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
-      "id": 34
-    },
-    {
-      "title": "o mito do nascimento do herói",
-      "author": "123",
-      "pages": "123",
-      "description": " ",
-      "ISBN": "222-22-2222-222-2",
-      "cover": "https://m.media-amazon.com/images/I/91pRTW8AavL._SL1500_.jpg",
-      "id": 35
+      "title": "Seeking Brakhage ",
+      "author": "Fred Camper",
+      "pages": "488",
+      "description": " The most perceptive critical writing on one of the most important American artists of the late 20th century, the essays of Fred Camper on the work of the filmmaker Stan Brakhage has here finally been gathered into a single volume.\n\n\nFor six decades Camper's intensely observant criticism was scattered over a multitude of hard-to-find periodicals, archived in program notes for retrospectives at museums, or accompanied various digital releases of Brakhage films.\n\n\nThis book now brings together for the first time Camper's own selection of his most significant essays, written over a lifetime of close viewing of Brakhage films.\n\n\n\n\"Nobody knows the films of Stan Brakhage better than Fred Camper, and nobody cares more for them, or is more meticulous in writing about them....\n\n\n...I first noticed him in 1965 when he followed Brakhage and me out of a screening in New Haven back to the filmmaker's guestroom at Yale University. He was a constant presence at Brakhage screenings in New York. Later, he was a graduate student and teaching assistant at the Cinema Studies Department of New York University when I taught there in the 1970s. The School of the Art Institute of Chicago hired him away before he wrote his Ph.D. dissertation (to be on Brakhage, which he never completed).....\n\n\n...his undaunted enthusiasm radiates. His intention is clear, and his argument illuminating. He loves the films he writes about, and he tells us why, precisely.\"\n\n\n    - from the introduction by P. Adams Sitney",
+      "ISBN": "978-29-5820-444-0",
+      "cover": "https://m.media-amazon.com/images/I/711CA55POrL._SL1500_.jpg",
+      "id": 7
     }
   ]
 }

@@ -5,12 +5,12 @@ var urlParams = new URLSearchParams(window.location.search);
         let storedArray = JSON.parse(localStorage.getItem('shelf')) || [];
 
         if (storedArray.includes(idGet)) {
-            $('.add-shelf').text('Livro já está na estante').attr('class', 'btn bg-primary text-danger d-none d-md-block add-shelf')
-            
+            $('.add-shelf').text('Livro já está na estante').attr('class', 'btn bg-primary text-danger d-none d-md-block add-shelf') 
+            $('.add-shelf2').text('Livro já está na estante').attr('class', 'btn bg-primary text-danger d-flex d-md-none add-shelf') 
         }
 
         $('.add-shelf').attr('value', idGet);
-        $('.add-shelf').on('click', function () {
+        $('.add-shelf, .add-shelf2').on('click', function () {
 
             if (!storedArray.includes(idGet)) {
                 storedArray.push(idGet);
@@ -19,6 +19,7 @@ var urlParams = new URLSearchParams(window.location.search);
             localStorage.setItem('shelf', JSON.stringify(storedArray));
 
             $('.add-shelf').text('Livro já está na estante').attr('class', 'btn bg-primary text-danger d-none d-md-block add-shelf')
+            $('.add-shelf2').text('Livro já está na estante').attr('class', 'btn bg-primary text-danger d-flex d-md-none add-shelf') 
 
         })
 
