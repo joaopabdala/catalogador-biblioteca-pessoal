@@ -5,7 +5,6 @@ $.ajax({
 
   success(data) {
     fetchData('#books-home', data.length);
-    console.log(data)
   }
 })
 
